@@ -1,6 +1,6 @@
 package ru.gb.message;
 
-public class DownloadFileRequestMessage {
+public class DownloadFileRequestMessage extends Message {
     private String path;
 
     public String getPath() {
