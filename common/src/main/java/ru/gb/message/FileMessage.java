@@ -1,7 +1,16 @@
 package ru.gb.message;
 
 public class FileMessage extends Message {
+    private String name;
     private byte[] content;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public byte[] getContent() {
         return content;
